@@ -22,7 +22,7 @@
     "swagger-ui": "https://github.com/swagger-api/swagger-ui/archive/v3.25.0.tar.gz"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^6.8.0",
     "eslint-config-loopback": "^8.0.0"
   },
   "repository": {
