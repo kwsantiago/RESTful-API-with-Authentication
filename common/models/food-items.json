@@ -13,6 +13,10 @@
     "price": {
       "type": "number",
       "required": true
+    },
+    "picture": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
