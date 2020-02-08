@@ -34,11 +34,11 @@ class App extends React.Component{
         return (
             <div className="ui list" style={this.Style}>
                 <h1> Kyle's Restaurant Menu </h1>
-                <FoodItem
-                     picture={this.state.picture[0]}
-                     name={this.state.name[0]}
-                     price={this.state.price[0]}
-                     />
+       <FoodItem
+            picture={this.state.picture[0]}
+            name={this.state.name[0]}
+            price={this.state.price[0]}
+            />                               
        <br/>             <FoodItem
             picture={this.state.picture[1]}
             name={this.state.name[1]}
