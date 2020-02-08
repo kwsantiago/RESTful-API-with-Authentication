@@ -13,7 +13,7 @@ class App extends React.Component{
     }
 
     componentDidMount = () => {
-        axios.get('http://localhost:8080/api/dishes').then((res) => {
+        axios.get('http://localhost:8080/api/food-items').then((res) => {
             for (var i = 0; i < res.data.length; i++)
             this.setState({
                 name: [...this.state.name, res.data[i].name],
